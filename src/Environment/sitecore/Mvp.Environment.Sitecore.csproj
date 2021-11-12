@@ -70,10 +70,14 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".well-known\pki-validation\ca3-545ac3973b3c4689913deb7a1ce62ab0.txt" />
+    <Content Include=".well-known\pki-validation\ca3-ada7452ec2d942fa9844b13a6f453dc6.txt" />
     <Content Include="App_Config\Include\Sitecore.LoadBalancing.config" />
     <Content Include="App_Config\Include\Sitecore.MediaDefaults.config" />
     <Content Include="App_Config\Include\Sitecore.LinkProvider.config" />
     <Content Include="App_Config\Include\Sitecore.Owin.Authentication.ClientCredentialsMapping.Mvp.config" />
+    <Content Include="App_Config\Include\z_SPE\Spe.IdentityServer.config" />
+    <Content Include="App_Config\Include\z.Cloudflare.config" />
     <None Include="Mvp.Environment.Sitecore.wpp.targets" />
     <None Include="Directory.Build.props" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
