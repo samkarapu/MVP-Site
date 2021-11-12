@@ -82,6 +82,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="sitecore\Sitecore.Framework.Plugin.Administration\Content\.well-known\pki-validation\ca3-a997a6b81b6d40bfbe6c3a834f0556db.txt" />
     <Content Include="Config\Sitecore.IdentityServer.Mvp.xml" />
   </ItemGroup>
   <PropertyGroup>

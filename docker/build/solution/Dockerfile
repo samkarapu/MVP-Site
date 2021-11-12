@@ -44,5 +44,5 @@ WORKDIR /artifacts
 
 # Copy in all artifacts for sitecore, identity & rendering host
 COPY --from=builder /build/docker/deploy/sitecore ./sitecore/
-COPY --from=builder /build/docker/deploy/identity/Config ./identity/Config
+COPY --from=builder /build/docker/deploy/identity ./identity/
 COPY --from=builder /build/rendering ./rendering/
