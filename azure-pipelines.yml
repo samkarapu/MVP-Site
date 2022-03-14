@@ -17,7 +17,7 @@ stages:
   jobs:  
   - job: Build
     displayName: Build
-    pool: $(AGENT_POOL_NAME)
+    pool: ubuntu-latest
     steps:
     - task: DockerCompose@0
       displayName: "Build Images"
